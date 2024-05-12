@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					}
+				],
+				"name": "LogMessage",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"name": "verifyAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/5_sample2.sol": "MySmartContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/5_sample2.sol": {
+			"keccak256": "0xc84bf67c0e36a8abb15fe3de516ebb7faeb2a41d4864ce4dea911eb046bd9aec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1cf947c3f5d2ea5428964ff75198ae539aafa1b3d6ff1f5f3d2a5d441aba8d09",
+				"dweb:/ipfs/QmSYV1mpxz1Njznzm42HiPHi3nLEgeFFuq2et6aXDW3r3r"
+			]
+		}
+	},
+	"version": 1
+}

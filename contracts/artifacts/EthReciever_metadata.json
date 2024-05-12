@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7_trans.sol": "EthReciever"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7_trans.sol": {
+			"keccak256": "0x879c73547fdd9a37ef89f0e948ae73fbb0a54569c39e5072298f8f8ad30a2a0a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bccc06c73221090b9a62aaa456abbf6e3c7c78083b9c0bfb72433efb0001b8fa",
+				"dweb:/ipfs/QmPBHFR7Lyi4QwPuq6B89LNqiHgf5193xUkxSD5TX4tSVC"
+			]
+		}
+	},
+	"version": 1
+}

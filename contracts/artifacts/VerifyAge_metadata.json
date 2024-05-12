@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					}
+				],
+				"name": "LogMessage",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"name": "verifyAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/5_sample2.sol": "VerifyAge"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/5_sample2.sol": {
+			"keccak256": "0x33e4ee7af6e580c21421556701462ef8c29fdeaf71bb4cca9ec8314483ebe629",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bb40c07f93ba1f9ca1b8f06c0c42e0003c9c5928de7a6a5cdc365e27295da898",
+				"dweb:/ipfs/QmY6mgou5pDsPonNTnkeh5Ue2kPvEa9cM7jBfPF4inUeTm"
+			]
+		}
+	},
+	"version": 1
+}
